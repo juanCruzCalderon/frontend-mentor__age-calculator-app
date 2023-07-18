@@ -20,25 +20,28 @@
       <div class="inputs">
         <div class="input-container">
           <span>Day</span>
-          <input type="text" name="dia" placeholder="DD">
+          <input autocomplete="off" type="text" name="dia" placeholder="DD">
+          <span class="hidden "></span>
         </div>
         <div class="input-container">
           <span>Month</span>
-          <input type="text" name="mes" placeholder="MM">
+          <input autocomplete="off" type="text" name="mes" placeholder="MM">
+          <span class="hidden "></span>
         </div>
         <div class="input-container">
           <span>Year</span>
-          <input type="text" name="anio" placeholder="YYYY">
+          <input autocomplete="off" type="text" name="anio" placeholder="YYYY">
+          <span class="hidden "></span>
         </div>
       </div>
 
-      <button type="submit"><img src="./assets/images/icon-arrow.svg" alt="action"></button>
+      <button type="submit" class="submit"><img src="./assets/images/icon-arrow.svg" alt="action"></button>
     </form>
 
     <section class="result">
-      <h2 class="result__text"><span class="result__text">--</span>years</h2>
-      <h2 class="result__text"><span class="result__text">--</span>months</h2>
-      <h2 class="result__text"><span class="result__text">--</span>days</h2>
+      <h2 class="result__text"><span class="result__span year">--</span> years</h2>
+      <h2 class="result__text"><span class="result__span month">--</span> months</h2>
+      <h2 class="result__text"><span class="result__span day">--</span> days</h2>
     </section>
   </main>
 
